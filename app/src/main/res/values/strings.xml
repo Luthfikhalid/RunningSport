@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Running Sport</string>
+    <string name="D">Diadora</string>
+    <string name="N">NIKE</string>
+    <string name="A">Adidas</string>
+    <string name="R">Reebok</string>
+    <string name="C">Converse</string>
+    <string name="chooses">Chooses Your Shoes : </string>
+    <string name="name">Luthfi Khalid</string>
+    <string name="perkerjaan">Mahasiswa</string>
+    <string name="YN">Your Name</string>
+    <string name="BS">Brand Shoes</string>
+    <string name="TS">Type Shoes</string>
+    <string name="running">Running</string>
+    <string name="casual">Casual</string>
+    <string name="classic">Classic</string>
+    <string name="Quan">Quantity</string>
+    <string name="tandamin">-</string>
+    <string name="plus">+</string>
+    <string name="nol">0</string>
+    <string name="harga">$0</string>
+    <string name="reset">Reset</string>
+    <string name="order">Order</string>
+    <string name="order1">Order Your Favorit Shoes</string>
+    <string name="TB1">Type Brand</string>
+</resources>

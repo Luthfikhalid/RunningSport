@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_top_menu"
+    tools:context="com.example.khalid.runningsport.TopMenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/text_8"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_8"
+            android:onClick="onClickPesan1"
+            app:cardCornerRadius="@dimen/text_10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_14">
+
+                <ImageView
+                    android:layout_width="@dimen/text_converse"
+                    android:layout_height="@dimen/text_converse1"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@mipmap/logo"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/text_16"
+                    android:text="@string/C"
+                    android:textColor="@color/color1"
+                    android:textSize="@dimen/text_16"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_8"
+            android:onClick="onClickPesan2"
+            app:cardCornerRadius="@dimen/text_10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_14">
+
+                <ImageView
+                    android:layout_width="@dimen/text_shoes"
+                    android:layout_height="@dimen/text_shoes1"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@mipmap/logo_adidas"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/text_16"
+                    android:text="@string/A"
+                    android:textColor="@color/color4"
+                    android:textSize="@dimen/text_16"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_8"
+            android:onClick="onClickPesan3"
+            app:cardCornerRadius="@dimen/text_10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_14">
+
+                <ImageView
+                    android:layout_width="@dimen/text_shoes"
+                    android:layout_height="@dimen/text_shoes1"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@mipmap/logoreebok" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/text_16"
+                    android:text="@string/R"
+                    android:textColor="@color/color3"
+                    android:textSize="@dimen/text_16" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_8"
+            android:onClick="onClickPesan4"
+            app:cardCornerRadius="@dimen/text_10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_14">
+
+                <ImageView
+                    android:layout_width="@dimen/text_nike"
+                    android:layout_height="@dimen/text_nike1"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@mipmap/nikelogo"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/text_16"
+                    android:text="@string/N"
+                    android:textColor="@color/color2"
+                    android:textSize="@dimen/text_16"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_8"
+            android:onClick="onClickPesan5"
+            app:cardCornerRadius="@dimen/text_10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/text_14">
+
+                <ImageView
+                    android:layout_width="@dimen/text_diadora"
+                    android:layout_height="@dimen/text_diadora1"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@mipmap/diadoralogo"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/text_14"
+                    android:text="@string/D"
+                    android:textColor="@color/color1"
+                    android:textSize="@dimen/text_16"/>
+            </LinearLayout>
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+    </ScrollView>

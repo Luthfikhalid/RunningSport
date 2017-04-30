@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">50dp</dimen>
+    <dimen name="vertical_margin">35dp</dimen>
+    <dimen name="text_14">20dp</dimen>
+    <dimen name="text_16">30dp</dimen>
+    <dimen name="text_20">20dp</dimen>
+    <dimen name="text_shoes">150dp</dimen>
+    <dimen name="text_shoes1">100dp</dimen>
+    <dimen name="text_converse">120dp</dimen>
+    <dimen name="text_converse1">120dp</dimen>
+    <dimen name="text_nike">205dp</dimen>
+    <dimen name="text_nike1">110dp</dimen>
+    <dimen name="text_diadora">180dp</dimen>
+    <dimen name="text_diadora1">50dp</dimen>
+    <dimen name="text_8">8dp</dimen>
+    <dimen name="text_10">10dp</dimen>
+    <dimen name="text_enam">16dp</dimen>
+    <dimen name="text_empat">4dp</dimen>
+    <dimen name="text_40">40dp</dimen>
+    <dimen name="text_200">200dp</dimen>
+</resources>
