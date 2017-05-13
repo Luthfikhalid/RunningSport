@@ -109,7 +109,7 @@ public class OrderActivity extends AppCompatActivity {
         startActivity(Intent.createChooser(email, "Kirim email dengan"));
     }
     public void onClickPlus(View view) {
-        harga = harga + 5; //logic tombol >
+        harga = harga + 275; //logic tombol >
         qty = qty + 1;
         mTextQty.setText(qty + "");
         mTextHarga.setText("$" + harga);
